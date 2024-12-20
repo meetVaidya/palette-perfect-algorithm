@@ -1,1 +1,27 @@
-/treat
+# Python bytecode
+__pycache__/
+*.pyc
+.python-version
+pyproject.toml
+uv.lock
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+
+# Other files to ignore
+*.log
+*.tmp
+
+# data
+data/
+
+# prompts
+.cursorrules
